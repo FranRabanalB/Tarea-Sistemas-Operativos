@@ -12,8 +12,8 @@ all: $(TARGET)
 
 # Tarea de ejecutar el prgrama carrera
 $(TARGET): $(SRC)
-  $(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
+ $(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 
 # Tarea principal de makefile de ejecutar el archivo  con los parametros de la distacia: 100 y la cantidad de autos : 3
 run:
-  ./$(TARGET) 100 3
+ ./$(TARGET) 100 3

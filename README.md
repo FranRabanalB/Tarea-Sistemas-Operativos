@@ -15,8 +15,13 @@ Este programa simula una carrera de autos utilizando programación multihebras e
 1. Uso de Makefile
    - Para esta tarea se necesita compilar el archivo c++ con un archivo Makefile para automatizar el proceso de compilación de nuestro programa
    - Compilar con el comando:
-   - ```make```
-   - Finalmente ejecutar ```./carrera <distancia> <Numero de autos>```  por ejemplo ./carrera 100 3.
-
+```cpp
+ make
+```
+   - Finalmente ejecutar
+```cpp
+./carrera <distancia> <Numero de autos>
+```
+  
 
 

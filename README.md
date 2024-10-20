@@ -15,7 +15,7 @@ Este programa simula una carrera de autos utilizando programación multihebras e
 1. Compilacion sin make
    - Para compilar este programa se requiere de un compilador GNU g++ std=c++11 o superior en nuestro sistema Linux
    - Luego ejecutar el codigo con el comando g++ carrera.cpp -o carrera (si este no llega a funcionar usar g++ -std=c++11 carrera.cpp -o carrera -pthread)
-   - Finalmente ejecutar ./carrera <distancia> <Numero de autos>, por ejemplo ./carrera 100 3.
+   - Finalmente ejecutar ./carrera (distancia) (Numero de autos), por ejemplo ./carrera 100 3.
 
 2. Uso de Makefile
    - Para esta tarea se necesita compilar el archivo c++ con un archivo Makefile para automatizar el proceso de compilación de nuestro programa

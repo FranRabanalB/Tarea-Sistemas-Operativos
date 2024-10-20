@@ -40,7 +40,10 @@ void carrera(int id, int distancia_total) {
         mtx.unlock(); //Desbloquea a los otros hilos para que puedan seguir ejecutandose
 
         // Simular un cambio de velocidad con un sleep de duracion aleatoria, generada anteriormente, en milisegundos.
-        this_thread::sleep_for(chrono::milliseconds(tiempo_espera));
+        if(distancia_recorrida != distancia_total){
+            this_thread::sleep_for(chrono::milliseconds(tiempo_espera));
+        }
+        
     }
 
     // Cuando el auto llega a la meta.

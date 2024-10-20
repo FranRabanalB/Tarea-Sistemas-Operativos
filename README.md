@@ -7,20 +7,20 @@ Este programa simula una carrera de autos utilizando programación multihebras e
 
 > [!IMPORTANT]
 > **Requisitos**
->  - Sistema operativo Linux
+> - Sistema operativo Linux
 > - Compilador GNU g++ con soporte para C++11 o superior
-> - Biblioteca estándar de hebras de C++ (<thread>)
+> - Biblioteca estándar de hebras de C++ (thread)
 
 ### Instrucciones de Compilación y Ejecución
 1. Compilacion sin make
    - Para compilar este programa se requiere de un compilador GNU g++ std=c++11 o superior en nuestro sistema Linux
-   - luego ejecutar el codigo con el comando g++ carrera.cpp -o carrera (si este no llega a funcionar usar g++ -std=c++11 carrera.cpp -o carrera -pthread)
-   - y ejecutar con ejemplo de  ./carrera con ejemplo 100 3
+   - Luego ejecutar el codigo con el comando g++ carrera.cpp -o carrera (si este no llega a funcionar usar g++ -std=c++11 carrera.cpp -o carrera -pthread)
+   - Finalmente ejecutar ./carrera <distancia> <Numero de autos>, por ejemplo ./carrera 100 3.
 
 2. Uso de Makefile
-   - para esta tarea se necesita compilar el archivo c++ con un archivo Makefile para automatizar el proceso de compilación de nuestro programa
-   - compilar con el comando : make
-   - ejecutar con: make run (donde se ejecuta ya con parametros por defecto siendo estos 100 metros de distancia y 3 autos que compiten)
+   - Para esta tarea se necesita compilar el archivo c++ con un archivo Makefile para automatizar el proceso de compilación de nuestro programa
+   - Compilar con el comando:"make"
+   - Ejecutar con:"make run" (donde se ejecuta ya con parametros por defecto siendo estos 100 metros de distancia y 3 autos que compiten)
 
 
 
